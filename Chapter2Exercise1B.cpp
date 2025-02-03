@@ -1,20 +1,25 @@
-// Chapter2Exercise1B.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+File Name:Chapter2Exercise1B.cpp
+Programmer: Mark Goldstein
+Date: February 2025
+Requirements:
+ Sum of Two Numbers  Write a program that stores the integers 50 and 100 in variables, 
+ and stores the sum of these two in a variable named sum.
+ Display the result the console.
+
+
+*/
 
 #include <iostream>
+using namespace std;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int number1 = 50;
+	int number2 = 100;
+	int sum; 
+	sum = number1 + number2;
+	cout << "The sum of " << number1 << " and " << number2 << " is " << sum << endl;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
