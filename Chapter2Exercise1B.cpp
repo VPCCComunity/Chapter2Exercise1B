@@ -7,6 +7,9 @@ Requirements:
  and stores the sum of these two in a variable named sum.
  Display the result the console.
 
+ Revision:
+ Allow user to determine what numbers are to be added.
+
 
 */
 
@@ -16,9 +19,14 @@ using namespace std;
 
 int main()
 {
-	int number1 = 50;
-	int number2 = 100;
+	int number1;
+	int number2;
 	int sum; 
+	cout << "Please enter your first number: ";
+	cin >> number1;
+	cout << "Please enter your second number: ";
+	cin >> number2;
+
 	sum = number1 + number2;
 	cout << "The sum of " << number1 << " and " << number2 << " is " << sum << endl;
 }
